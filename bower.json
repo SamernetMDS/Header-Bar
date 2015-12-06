@@ -9,11 +9,11 @@
     "web-component",
     "web-components",
     "polymer",
-    "seed"
+    "header-bar"
   ],
-  "main": "seed-element.html",
-  "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "main": "header-bar.html",
+  "license": "Header-Bar/License",
+  "homepage": "https://github.com/SamernetMDS/Header-Bar",
   "ignore": [
     "/.*",
     "/test/",
