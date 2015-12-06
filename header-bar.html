@@ -60,13 +60,32 @@ Example:
           margin: 0px 10px;
       }
     
+      ::content header {
+          display: block;
+          background-color: #4b4b4b;         
+          padding: 0px 15px;
+          line-height: 26px;
+          height: 26px;
+          color: #fffefe;
+      }
+      
+      ::content header > * {
+          margin: 0px;
+          padding: 0px;
+          line-height: 26px;
+          height: 26px;
+          color: #fffefe !important;
+      }
       
   </style>
 
   <template>
       <div id="main">
         <h1 id="title">{{title}}</h1>
-        <content select="nav"></content>
+        <content id="main-header" select="nav"></content>          
+      </div>
+      <div id="sub">
+        <content id="sub-headers" select="header"></content>
       </div>
   </template>
 
